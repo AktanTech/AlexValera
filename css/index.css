@@ -1,0 +1,34 @@
+body {
+    background-image: url('../images/AV_1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: FocusGoteskRegular;
+    src: url('../fonts/OTF/FocusGrotesk-Regular.otf') format('OTF'),
+        url('../fonts/TTF/FocusGrotesk-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: FocusGoteskBold;
+    src: url('../fonts/OTF/FocusGrotesk-Bold.otf') format('OTF'),
+        url('../fonts/TTF/FocusGrotesk-Bold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: FocusGoteskBoldItalic;
+    src: url('../fonts/OTF/FocusGrotesk-BoldItalic.otf') format('OTF'),
+        url('../fonts/TTF/FocusGrotesk-BoldItalic.ttf') format('truetype')
+}
+
+.proxText {
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-family: FocusGoteskRegular;
+    margin-top: 40%;
+    margin-left: 48%;
+}
