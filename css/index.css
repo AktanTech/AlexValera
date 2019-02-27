@@ -1,9 +1,3 @@
-body {
-    background-image: url('../images/EnConstrucción.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
 @font-face {
     font-family: FocusGoteskRegular;
     src: url('../fonts/OTF/FocusGrotesk-Regular.otf') format('OTF'),
@@ -22,13 +16,20 @@ body {
         url('../fonts/TTF/FocusGrotesk-BoldItalic.ttf') format('truetype')
 }
 
-.proxText {
-    display: flex;
-    color: #ffffff;
-    align-items: center;
-    justify-content: center;
-    font-size: 4rem;
-    font-family: FocusGoteskRegular;
+body {
+    background-image: url('../images/EnConstrucción.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.socialNetworks {
     margin-top: 40%;
-    margin-left: 48%;
+    margin-left: 84%;
+}
+
+.icon {
+    color: #FFFFFF;
+    margin-right: 32px;
+    margin-bottom: 16px;
+    font-size: 3rem;
 }
