@@ -24,15 +24,15 @@ body {
 }
 
 .socialNetworks {
-    margin-top: 40%;
-    margin-left: 84%;
+    margin-top: 45%;
+    margin-left: 90%;
 }
 
 .icon {
     color: #FFFFFF;
     margin-right: 32px;
     margin-bottom: 16px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 @media (max-width: 850px) {
@@ -43,7 +43,7 @@ body {
     }
 
     .socialNetworks {
-        margin-top: 80%;
-        margin-left: 40%;
+        margin-top: 100%;
+        margin-left: 64%;
     }
 }
